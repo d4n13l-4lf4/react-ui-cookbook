@@ -1,24 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Link, Switch, Route} from "react-router-dom";
+import {routes} from "./route/routes";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <ul>
+        <li>
+            <Link to={"/chapter01"} >1. Grids Placing Components on the Page</Link>
+        </li>
+          <li>
+              <Link to={"/chapter02"}>2. App Bars - The Top Level of Every Page</Link>
+          </li>
+          <li>
+              <Link to={"/chapter03"}>3. Drawers</Link>
+          </li>
+          <li>
+              <Link to={"/chapter04"}>4. Tabs - Grouping sections</Link>
+          </li>
+      </ul>
+        <div>
+            <Switch>
+                {
+                    routes
+                        .filter((r) => !r.disabled)
+                        .map((r, i) => <Route key={i} path={r.path} component={r.component} />)
+                }
+            </Switch>
+        </div>
     </div>
   );
 }

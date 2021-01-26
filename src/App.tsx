@@ -19,6 +19,9 @@ function App() {
           <li>
               <Link to={"/chapter04"}>4. Tabs - Grouping sections</Link>
           </li>
+          <li>
+              <Link to={"/chapter05"}>5. Expansion Panels - Group Content into Panel Sections</Link>
+          </li>
       </ul>
         <div>
             <Switch>

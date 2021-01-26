@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="555a9804-fc29-44ea-b398-d8a309ea9bfb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Chapter04.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Chapter04.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/route/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/route/routes.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +74,10 @@
       <workItem from="1611372891095" duration="644000" />
       <workItem from="1611373549286" duration="2494000" />
       <workItem from="1611511511767" duration="87000" />
-      <workItem from="1611511601637" duration="8504000" />
+      <workItem from="1611511601637" duration="8812000" />
+      <workItem from="1611582841951" duration="94000" />
+      <workItem from="1611608351254" duration="3005000" />
+      <workItem from="1611617400742" duration="3629000" />
     </task>
     <servers />
   </component>

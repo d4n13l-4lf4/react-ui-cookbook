@@ -14,6 +14,7 @@
     "@types/react-dom": "^16.9.10",
     "@types/recompose": "^0.30.7",
     "clsx": "^1.1.1",
+    "faker": "^5.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
@@ -47,6 +48,7 @@
     ]
   },
   "devDependencies": {
+    "@types/faker": "^5.1.5",
     "@types/material-ui": "^0.21.8",
     "@types/react-router-dom": "^5.1.7"
   }

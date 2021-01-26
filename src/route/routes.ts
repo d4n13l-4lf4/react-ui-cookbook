@@ -2,6 +2,7 @@ import Chapter01 from "../component/Chapter01";
 import Chapter02 from "../component/Chapter02";
 import Chapter03 from "../component/Chapter03";
 import Chapter04 from "../component/Chapter04";
+import Chapter05 from "../component/Chapter05";
 
 interface IRoute {
     path: string,
@@ -30,6 +31,10 @@ const routes: IRoute[] = [
     {
         path: "/chapter04",
         component: Chapter04
+    },
+    {
+        path: "/chapter05",
+        component: Chapter05,
     }
 ];
 

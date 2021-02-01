@@ -7,21 +7,15 @@ function App() {
   return (
     <div>
       <ul>
-        <li>
-            <Link to={"/chapter01"} >1. Grids Placing Components on the Page</Link>
-        </li>
-          <li>
-              <Link to={"/chapter02"}>2. App Bars - The Top Level of Every Page</Link>
-          </li>
-          <li>
-              <Link to={"/chapter03"}>3. Drawers</Link>
-          </li>
-          <li>
-              <Link to={"/chapter04"}>4. Tabs - Grouping sections</Link>
-          </li>
-          <li>
-              <Link to={"/chapter05"}>5. Expansion Panels - Group Content into Panel Sections</Link>
-          </li>
+          {
+              routes
+                  .filter(r => !r.disabled)
+                  .map((r) => (
+                      <li>
+                          <Link to={r.path}>{r.title}</Link>
+                      </li>
+                  ))
+          }
       </ul>
         <div>
             <Switch>

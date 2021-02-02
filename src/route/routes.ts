@@ -11,6 +11,8 @@ import Chapter10 from "../component/Chapter10";
 import Chapter11 from "../component/Chapter11";
 import Chapter12 from "../component/Chapter12";
 import Chapter13 from "../component/Chapter13";
+import Chapter14 from "../component/Chapter14";
+import Chapter15 from "../component/Chapter15";
 
 interface IRoute {
     title: string;
@@ -89,6 +91,16 @@ const routes: IRoute[] = [
         title: "13. Selection - Make Selections from Choices",
         path: "/chapter13",
         component: Chapter13,
+    },
+    {
+        title: "14. Pickers - Selecting Dates and Times",
+        path: "/chapter14",
+        component: Chapter14,
+    },
+    {
+        title: "15. Dialogs - Modal Screen for User",
+        path: "/chapter15",
+        component: Chapter15,
     }
 ];
 

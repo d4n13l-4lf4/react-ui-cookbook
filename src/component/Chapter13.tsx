@@ -4,6 +4,8 @@ import CustomizingCheckboxItems from "../subcomponent/chapter13/CustomizingCheck
 import AbstractingRadioButtonGroups from "../subcomponent/chapter13/AbstractingRadioButton";
 import RadioButtonTypes from "../subcomponent/chapter13/RadioButtonTypes";
 import ReplacingCheckboxesWithSwitches from "../subcomponent/chapter13/Switches";
+import ControllingSelectWithState from "../subcomponent/chapter13/SelectNesting";
+import SelectingMultipleItems from "../subcomponent/chapter13/SelectMultipleItems";
 
 class Chapter13 extends React.Component<any, any> {
 
@@ -16,6 +18,8 @@ class Chapter13 extends React.Component<any, any> {
                 <AbstractingRadioButtonGroups />
                 <RadioButtonTypes />
                 <ReplacingCheckboxesWithSwitches />
+                <ControllingSelectWithState />
+                <SelectingMultipleItems />
             </div>
         )
     }

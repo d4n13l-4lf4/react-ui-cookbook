@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Chapter13.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Chapter13.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/route/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/route/routes.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +91,8 @@
       <workItem from="1611938740643" duration="114000" />
       <workItem from="1611950670899" duration="364000" />
       <workItem from="1611977605825" duration="1940000" />
-      <workItem from="1612148595361" duration="2745000" />
+      <workItem from="1612148595361" duration="4591000" />
+      <workItem from="1612222296609" duration="1962000" />
     </task>
     <servers />
   </component>

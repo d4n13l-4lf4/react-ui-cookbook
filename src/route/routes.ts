@@ -13,6 +13,11 @@ import Chapter12 from "../component/Chapter12";
 import Chapter13 from "../component/Chapter13";
 import Chapter14 from "../component/Chapter14";
 import Chapter15 from "../component/Chapter15";
+import Chapter16 from "../component/Chapter16";
+import Chapter17 from "../component/Chapter17";
+import Chapter18 from "../component/Chapter18";
+import Chapter19 from "../component/Chapter19";
+import Chapter20 from "../component/Chapter20";
 
 interface IRoute {
     title: string;
@@ -101,6 +106,31 @@ const routes: IRoute[] = [
         title: "15. Dialogs - Modal Screen for User",
         path: "/chapter15",
         component: Chapter15,
+    },
+    {
+        title: "16. Menus - Display Actions that Pop Out",
+        path: "/chapter16",
+        component: Chapter16,
+    },
+    {
+        title: "17. Typography - Control Font Look and Feel",
+        path: "/chapter17",
+        component: Chapter17,
+    },
+    {
+        title: "18. Enhance Icons to Match Your Look and Feel",
+        path: "/chapter18",
+        component: Chapter18,
+    },
+    {
+        title: "19. Themes - Centralize the Look and Feel of Your App",
+        path: "/chapter19",
+        component: Chapter19,
+    },
+    {
+        title: "20. Styles - Applying styles to components",
+        path: "/chapter20",
+        component: Chapter20,
     }
 ];
 
